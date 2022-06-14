@@ -1,0 +1,66 @@
+package aula53;
+
+public class teste {
+
+	public static void main(String[] args) {
+		usandoConstante();
+
+	}
+
+	public static void usandoConstante() {
+		int segunda =DiaSemanaConstantes.SEGUNDA_FEIRA;
+		int terca =DiaSemanaConstantes.TERCA_FEIRA;
+		int quarta =DiaSemanaConstantes.QUARTA_FEIRA;
+		int quinta =DiaSemanaConstantes.QUINTA_FEIRA;
+		int sexta =DiaSemanaConstantes.SEXTA_FEIRA;
+		int sabado =DiaSemanaConstantes.SABADO;
+		int domingo =DiaSemanaConstantes.DOMINGO;
+		System.out.println("teste constante:");
+		imprimeDiaSemana(segunda);
+		imprimeDiaSemana(terca);
+		imprimeDiaSemana(quarta);
+		imprimeDiaSemana(quinta);
+		imprimeDiaSemana(sexta);
+		imprimeDiaSemana(sabado);
+		imprimeDiaSemana(domingo);
+		System.out.println("teste enum: ");
+		imprimeDiaSemana(domingo);
+	}
+
+	public static void imprimeDiaSemana(int dia) {
+		switch (dia) {
+		case 1:
+			System.out.println("segunda");
+			break;
+		case 2:
+			System.out.println("terca");
+			break;
+		case 3:
+			System.out.println("quarta");
+			break;
+		case 4:
+			System.out.println("quinta");
+			break;
+		case 5:
+			System.out.println("sexta");
+			break;
+		case 6:
+			System.out.println("sabado");
+			break;
+		case 7:
+			System.out.println("domingo");
+			break;
+		}
+	}
+	private static void usandoEnum() {
+		DiaSemana segunda = DiaSemana.SEGUNDA;
+		DiaSemana terca = DiaSemana.TERCA;
+		DiaSemana quarta = DiaSemana.QUARTA;
+		DiaSemana quinta = DiaSemana.QUINTA;
+		DiaSemana sexta = DiaSemana.SEXTA;
+		DiaSemana sabado = DiaSemana.SABADO;
+		DiaSemana domingo = DiaSemana.DOMINGO;
+				
+	}
+
+}
