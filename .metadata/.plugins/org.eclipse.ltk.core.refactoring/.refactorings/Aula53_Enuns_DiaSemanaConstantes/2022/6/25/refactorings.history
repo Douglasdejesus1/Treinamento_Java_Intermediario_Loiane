@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;DiaSemanaConstantes.java&apos; to &apos;Aula53_Enuns_DiaSemanaConstantes/src/aula53&apos;&#x0D;&#x0A;- Original project: &apos;Aula53_Enuns_DiaSemanaConstantes&apos;&#x0D;&#x0A;- Destination element: &apos;Aula53_Enuns_DiaSemanaConstantes/src/aula53&apos;&#x0D;&#x0A;- Original element: &apos;DiaSemanaConstantes.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;aula53" element1="/src&lt;{DiaSemanaConstantes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1655169600928" units="1" version="1.0"/>
-</session>
