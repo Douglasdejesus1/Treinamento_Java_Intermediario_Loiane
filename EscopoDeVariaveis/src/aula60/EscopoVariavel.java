@@ -38,6 +38,11 @@ public class EscopoVariavel {
 	}
 	public void maisUmTeste() {
 		boolean flag=true;
-		//if(flag)
+		if(flag) {
+			int umaVariavel=10;
+			umaVariavel++;
+			System.out.println(umaVariavel);
+		}
+		//System.out.println(umaVariavel); error
 	}
 }
