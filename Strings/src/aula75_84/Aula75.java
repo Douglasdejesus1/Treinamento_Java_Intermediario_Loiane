@@ -54,7 +54,7 @@ public class Aula75 {
 		+"Various versions have evolved over the years, sometimes by accident, sometimes on purpose "
 		+"(injected humour and the like)";
 		String concatenacao2 ="It is a long established fact that a reader will be distracted by ";
-		concatenacao2=+"the readable content of a page when looking at its layout. The point of using Lorem Ipsum ";
+		concatenacao2+="the readable content of a page when looking at its layout. The point of using Lorem Ipsum ";
 		System.out.println(concatenacao2);
 		
 		
