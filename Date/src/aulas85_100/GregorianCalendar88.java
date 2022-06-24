@@ -14,7 +14,7 @@ public class GregorianCalendar88 {
 		//System.out.println(hoje1);
 		imprimirData(hoje);
 	}
-	private static void imprimirData(GregorianCalendar hoje) {
+	private static void imprimirData(Calendar hoje) {
 		int ano =hoje.get(Calendar.YEAR);
 		int mes =hoje.get(Calendar.MONTH)+1;
 		//System.out.println(hoje.get(Calendar.FEBRUARY));
