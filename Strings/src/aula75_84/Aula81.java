@@ -6,6 +6,9 @@ public class Aula81 {
 		String teste = "Teste";
 		System.out.println(teste.toLowerCase());
 		System.out.println(teste.toUpperCase());
+		
+		if(teste.toLowerCase().equals(teste.toLowerCase()));
+		//substitui o equalsIngnoreCase
 	}
 
 }
