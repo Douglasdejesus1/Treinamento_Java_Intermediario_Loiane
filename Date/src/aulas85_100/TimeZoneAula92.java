@@ -30,7 +30,8 @@ public class TimeZoneAula92 {
 		Calendar agoraNY =Calendar.getInstance(tzSP);
 		System.out.println(agoraNY.getTimeZone());
 		System.out.println(sdf.format(agoraNY.getTime()));
-		agoraNY.add(Calendar.HOUR_OF_DAY, tzSP.getOffset((System.currentTimeMillis()))/1000/60/60);
+		agoraNY.add(Calendar.HOUR_OF_DAY, tzSP.getOffset(
+				(System.currentTimeMillis()))/1000/60/60);
 		System.out.println(sdf.format(agoraNY.getTime()));
 		
 	}
