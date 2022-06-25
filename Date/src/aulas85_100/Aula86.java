@@ -7,7 +7,7 @@ public class Aula86 {
 	public static void main(String[] args) {
 
 		Date hoje = new Date();
-		//ja esta depreciado, logo perderá o suporte
+		//ja esta depreciado, logo perderá o suporte, da a data atural
 		System.out.println(hoje);
 		System.out.println("Milesegundos desde 1 Jan 1970: "+hoje.getTime());
 		System.out.println("Dia do mês: "+hoje.getDate());

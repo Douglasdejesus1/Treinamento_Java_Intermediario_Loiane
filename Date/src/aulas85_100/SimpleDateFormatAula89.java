@@ -10,7 +10,7 @@ public class SimpleDateFormatAula89 {
 
 	public static void main(String[] args) {
 
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy hh:mm:ss a Z");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MMM/yyyy hh:mm:ss a z");
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yy");
 		
 		Calendar data =new GregorianCalendar(2010,2,20,14,32,25);

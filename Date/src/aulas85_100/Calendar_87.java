@@ -2,11 +2,11 @@ package aulas85_100;
 
 import java.util.Calendar;
 
-public class Calendaer_87 {
+public class Calendar_87 {
 
 	public static void main(String[] args) {
 
-		Calendar hoje = Calendar.getInstance(); //singleton
+		Calendar hoje = Calendar.getInstance(); //singleton //pega a data de hoje
 		
 		//System.out.println(hoje);
 		int ano =hoje.get(Calendar.YEAR);
